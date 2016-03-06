@@ -1,2 +1,4 @@
 The spot welder is made of two boards which are stacked on top of each other.
 One board contains all the logic and low power electronic components and the other one contains the Mosfets.
+
+The gerber files are made to be used at pcbway.com 
