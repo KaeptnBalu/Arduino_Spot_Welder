@@ -1,3 +1,5 @@
+// Simply copy and paste the code into a new sketch in your Arduino Software
+
 int mosfetPin = 5;
 int ledPin = 4;
 int tasterPin = 2;
