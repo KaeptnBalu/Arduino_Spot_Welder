@@ -29,9 +29,9 @@ for (int i=6; i <= 13; i++) // 6-13 are set as Outputs
 
 
 //Flash the led once to verify correct placement
-  digitalWrite(ledPin, LOW);
-  delay(500);
   digitalWrite(ledPin, HIGH);
+  delay(500);
+  digitalWrite(ledPin, LOW);
 
 }
 
