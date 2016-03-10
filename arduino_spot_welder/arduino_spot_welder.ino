@@ -1,4 +1,5 @@
-// Simply copy and paste the code into a new sketch in your Arduino Software
+// Arduino Battery Spot Welder
+// Project Page: http://www.instructables.com/id/DIY-Arduino-Battery-Spot-Welder/
 
 int mosfetPin = 5;
 int ledPin = 4;
@@ -25,6 +26,12 @@ pinMode(ledPin,OUTPUT);  // set ledPin as Output
 // 7 Segment Pins
 for (int i=6; i <= 13; i++) // 6-13 are set as Outputs
     pinMode(i,OUTPUT);
+
+
+//Flash the led once to verify correct placement
+  digitalWrite(ledPin, HIGH);
+  delay(500);
+  digitalWrite(ledPin, LOW);
 
 }
 
