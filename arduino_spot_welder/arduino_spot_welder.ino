@@ -1,7 +1,7 @@
 // Arduino Battery Spot Welder
 // Project Page: http://www.instructables.com/id/DIY-Arduino-Battery-Spot-Welder/
 
-int mosfetPin = 5;  //pin that controlls the mosfet drivers
+int mosfetPin = 5;  //pin that controls the mosfet drivers
 int ledPin = 4;   //pin to control the status led
 int tasterPin = 2;  //pin to trigger a pulse with the foot switch
 int sensorPin = A7;  //pin where the potentiometer value is read
@@ -10,6 +10,7 @@ int pulse_time;   //variable to store the pulse time
 int pulse_short;  //variable to store the short pulse time
 
 
+// Define the possible numbers to be displayed on the 7-segment display in an array
 //            0           1          2          3          4          5          6          7          8          9          .
 byte z[11]={B11111101, B01100001, B11011011, B11110011, B01100111, B10110111, B10111111, B11100001, B11111111, B11110111, B00000001};
 
@@ -34,7 +35,7 @@ for (int i=6; i <= 13; i++) // 6-13 are set as Outputs
     digitalWrite(i, HIGH);
   delay(2000);
   digitalWrite(ledPin, LOW);
-  for (int i=6; i <= 13; i++) // 6-13 are set to High which means all segments on
+  for (int i=6; i <= 13; i++) // 6-13 are set to LOW which means all segments off
     digitalWrite(i, LOW);
 
 }
