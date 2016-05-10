@@ -5,5 +5,20 @@ The gerber files are made to be used at pcbway.com
 You can support me by registering through this link http://www.pcbway.com/setinvite.aspx?inviteid=12824
 This way you get a 5$ coupon for your order and i get some credits at the shop which i can use for upcoming projects.
 
+
+There are two versions of the gerber files available.
+
+1.
+Uncomplicated method. (recommended if you dont want to chat with pcbway support)
+You can use the Arduino_Board_Gerber.zip and the Mosfet_Board_Gerber.zip . So you have one gerber file for each board.
+
+2.
+You can use the Spot_welder_v2_gerber.zip which has both boards combined to one big board. 
+You have to cut this in half at home to get the two single boards.
+In the last time pcb way caused some problems when ordering this combinde board, depending on who of theire employes checks the gerber file.
+Tell pcb way that they should make it as one board and not as panelized boards or v-cut or something.
+
+
+
 To download Zip files click on them and then click "view raw". 
 Downloading by right click and "save as" does seem to cause problems.
