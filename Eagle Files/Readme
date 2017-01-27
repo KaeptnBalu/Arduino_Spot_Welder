@@ -3,10 +3,7 @@ One board contains all the logic and low power electronic components and the oth
 
 ---------------------------------------------------------------------------------------------------------
 
-UPDATE: (07.2016) Since pcbway.com mostly does not accept more than one single designs or a combined board 
-like the spot_welder_v2 on one 10x10cm board i tried firstpcb.com. 
-They accepted my order without problems and without raising the cost.
-Ordering process is almost the same except changing color of the board would cause extra cost.
+Update (01.2017): Spot_welder_v3_gerber.zip is now accepted by pcb way without problems
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -18,15 +15,13 @@ This way you get a 5$ coupon for your order and i get some credits at the shop w
 There are two versions of the gerber files available.
 
 1.
-Uncomplicated method. (recommended if you dont want to chat with pcbway support)
-You can use the Arduino_Board_Gerber.zip and the Mosfet_Board_Gerber.zip . So you have one gerber file for each board.
-
-2.
 You can use the Spot_welder_v2_gerber.zip which has both boards combined to one big board. 
 You have to cut this in half at home to get the two single boards.
-In the last time pcb way caused some problems when ordering this combinde board, depending on who of theire employes checks the gerber file.
-Tell pcb way that they should make it as one board and not as panelized boards or v-cut or something.
 
+2.
+You can use the Arduino_Board_Gerber.zip and the Mosfet_Board_Gerber.zip . So you have one gerber file for each board. 
+This means you have to order both boards seperately which is more expensive, but no cutting at home is required.
+(these are not the latest Version at the moment, i will update them in some weeks.)
 
 
 To download Zip files click on them and then click "view raw". 
