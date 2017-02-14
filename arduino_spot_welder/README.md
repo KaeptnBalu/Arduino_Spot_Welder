@@ -1,4 +1,4 @@
-The code for the Spot welder is the arduino_spot_welder.ino
+The code for the Spot welder is the arduino_spot_welder.ino . Use this for normal operation.
 
 If you built the spot welder yourself but it doesn't work, you can use the TEST_MODE_Arduino_Spot_Welder.ino to find the error.
 DO NOT CONNECT THE WELDING WIRES WHEN USING THIS CODE !
