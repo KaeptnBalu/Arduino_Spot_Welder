@@ -3,7 +3,7 @@ One board contains all the logic and low power electronic components and the oth
 
 ---------------------------------------------------------------------------------------------------------
 
-Update (01.2017): Spot_welder_v3_gerber.zip is now accepted by pcb way without problems
+Update (01.2017): Spot_welder_gerber.zip is now accepted by pcb way without problems
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -15,7 +15,7 @@ This way you get a 5$ coupon for your order and i get some credits at the shop w
 There are two versions of the gerber files available.
 
 1.
-You can use the Spot_welder_v3_gerber.zip which has both boards combined to one big board. 
+You can use the Spot_welder_gerber.zip which has both boards combined to one big board. 
 You have to cut this in half at home to get the two single boards.
 
 2.
